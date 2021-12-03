@@ -1,0 +1,97 @@
+.page-header {
+  color: black;
+}
+
+.header-contact {
+  display: flex;
+  width: 100%;
+}
+
+.header-contact-us {
+  float: right;
+  width: 50%;
+}
+.logo-image {
+  width: auto !important;
+  height: auto;
+}
+
+.schoolHouse-logo-image {
+  width: auto !important;
+  height: auto;
+  font-size: 1rem;
+}
+
+.header-panel {
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 5px !important;
+  background: white !important;
+  /* background: #f2f2f28c !important;
+    box-shadow: 1px 1px 4px 2px #bcbcbc !important; */
+  /* box-shadow: 4px 5px 15px #8e9192, -4px -5px 10px #f3f3f3; */
+}
+
+.active-menu {
+  box-shadow: 0px 0px 3px 1px #1e1e1d !important;
+}
+
+.inactive-menu {
+  box-shadow: unset;
+}
+
+.contact-info {
+  color: black;
+}
+
+.contact-info:hover {
+  color: black;
+}
+.ipad-menu {
+  overflow: auto !important;
+}
+.pagination-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.record-limit-bar {
+  margin: 0 1rem;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .schoolHouse-logo-image {
+    width: 200px !important;
+    height: auto;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .logo-image {
+    width: 100% !important;
+  }
+  .ipad-menu {
+    overflow: hidden !important;
+  }
+  .scrollable-menu {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .schoolHouse-logo-image {
+    width: 300px !important;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .schoolHouse-logo-image {
+    width: 250px !important;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .schoolHouse-logo-image {
+    width: 200px !important;
+    height: auto;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "development": {
+    "email": "komal@beyondroot.com",
+    "support_email": "support@techwavegroup.com",
+    "name": "Admin",
+    "contact_email": "admin@mylcsh.com",
+    "web_site_url": "http://localhost:3000/",
+    "forgot_password_path": "reset-password?type=forgot-password&code=",
+    "setting_new_password": "reset-password?type=new-user&code=",
+    "email_logo": "https://mylcsh.com/static/media/logo.30bd599a.png"
+  },
+  "production": {
+    "email": "twgschoolhouse@gmail.com",
+    "support_email": "support@techwavegroup.com",
+    "name": "Admin",
+    "contact_email": "admin@mylcsh.com",
+    "web_site_url": "https://mylcsh.com/",
+    "forgot_password_path": "reset-password?type=forgot-password&code=",
+    "setting_new_password": "reset-password?type=new-user&code=",
+    "email_logo": "https://mylcsh.com/static/media/logo.30bd599a.png"
+  }
+}

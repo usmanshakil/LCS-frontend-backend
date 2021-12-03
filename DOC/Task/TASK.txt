@@ -1,0 +1,22 @@
+ 
+Incident Module
+• Add Incidents to menu 
+• List Page: Date, Name, Class, 
+• Create an incidents area accessible by admins only
+• Drop-Downs to select by location, class, child
+• Additional fields: Date of Incident (required),
+Type of Incident (drop-down), Description, Solution, Photos, Parent Notified (checkbox), 
+Teacher Signoff (check box), Director Signoff (checkbox), Status (drop-down à awaiting teacher, 
+awaiting parent, awaiting director, in progress, resolved)
+
+Student - Medical Information
+• Make allergies a radio selection (Yes/No) and
+required If yes, then show the allergies field and under it have a link to the attached document so parent can download. 
+"Since your child has allergies the form below must be downloaded and filled out by your doctor. DOWNLOAD FILE" Under that,
+ have fields Date of doctor letter, Medicine Expiration Date, Upload Doctor Letter
+
+
+Children Records Checklist
+• Report must mimic attached file for printout
+• On screen view is flexible
+• Most of the check boxes can be populated based on if yes or if any data is in field

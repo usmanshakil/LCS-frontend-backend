@@ -1,0 +1,167 @@
+<html>
+
+<head>
+  <title>New User Signup</title>
+</head>
+<style>
+  .container {
+    display: flex;
+    font-family: serif;
+  }
+
+  .box {
+    background: #fff;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .top-content {
+    width: 100%;
+    display: block;
+    background: #31abc3;
+    height: 200px;
+  }
+
+  .logo {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .logo-content {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #ececec;
+    font-weight: bold;
+    padding: 30px 0;
+  }
+
+  .main-content {
+    width: 80%;
+    background: #f5f5f5;
+    padding: 20px 80px;
+    min-height: 20px;
+    border-bottom: 1px solid #020202;
+  }
+
+  .mt-2 {
+    margin-top: 6px;
+  }
+
+  .username {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #676767;
+  }
+
+  .content-panel {
+    color: #676767;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .thank {
+    padding-top: 20px;
+  }
+
+  .bottom-content {
+    width: 85%;
+    background: #f5f5f5;
+    padding: 0px 60px 20px 60px;
+    font-size: 17px;
+    color: #676767;
+  }
+
+  .contact-us {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .GFG {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 2;
+    display: inline-block;
+    border-radius: 3px;
+    background-image: linear-gradient(to top, #0084ff, #25b7ff);
+    background-color: #0084ff;
+    padding: 3px 20px;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="box">
+      {{#if hasSendToAdmin}}
+      <div class="top-content">
+        <div class="logo"><img src={{logo}}></div>
+        <div class="logo-content">New Account Approval Request</div>
+      </div>
+      <div class="main-content">
+        <div class="username">Hi {{superAdminName}},</div>
+        <div class="content-panel">
+          <div>
+            {{name}} is requesting access as {{role}}.
+          </div>
+          <div>
+            Log in now to approve or deny.
+          </div>
+          <p>
+            <a class="GFG" href='{{webSiteLink}}'>
+              Login
+            </a>
+          </p>
+          <div class="thank">
+            <div>Cheers,</div>
+            <div>LCSH TEAM</div>
+          </div>
+        </div>
+      </div>
+      {{else}}
+      <div class="top-content">
+        <div class="logo"><img src={{logo}}></div>
+        <div class="logo-content">Congratulations your account created</div>
+      </div>
+      <div class="main-content">
+        <div class="username">Hi {{name}},</div>
+        <div class="content-panel">
+          <div>
+            Thanks for Registering with <span style="color:#31abc3;">Little Children SchoolHouse.</span>
+          </div>
+          <div class="mt-2">
+            Your account have been registered successfully and is under approval. We will update you on you registered
+            email once your account is approved.
+          </div>
+          <div class="thank">
+            <div>Cheers,</div>
+            <div>LCSH TEAM</div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-content">
+        <div style="padding-top: 15px;">Please note that you account needs to be approve by a member of our
+          administrative
+          staff before it becomes functional We take the protection of your information very seriously. Please take a
+          back at our privacy policy
+          <a href='{{privacyPolicyLink}}'>Here</a>.</div>
+        <div class="contact-us">
+          <span>Please contact us with any issues</span>
+          <span style="float: right;">{{contactEmail}}</span>
+        </div>
+      </div>
+      {{/if}}
+    </div>
+  </div>
+</body>
+
+</html>

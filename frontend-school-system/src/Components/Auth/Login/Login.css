@@ -1,0 +1,236 @@
+.signup-link {
+    text-transform: capitalize;
+}
+
+.page-title-section {
+    margin-top: 2rem;
+}
+
+.page-heading {
+    text-align: left;
+}
+
+.register-link, .forgot-password {
+    cursor: pointer;
+}
+
+.btn-login {
+    width: 100%;
+}
+
+.login-section {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.login-form-outline {
+    padding: 3rem 6rem;
+    border-radius: 0 87.5px 87.5px 0;
+}
+
+.login-btn {
+    width: 40%;
+}
+
+.forgot-btn {
+    width: 60%;
+    margin-left: 10px;
+}
+
+.color-red {
+    color: Red;
+}
+
+.forgot-password {
+    width: 100%;
+    line-height: 39px;
+    vertical-align: middle;
+}
+
+.filled-input {
+    background: #e9f0fe !important;
+}
+
+.btn-outline-primary {
+    background-color: #3b5998;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: 0 0 0 1px #3b5998 inset;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+btn-outline-primary:focus {
+    border: 1px solid #3b5998;
+    outline: none;
+}
+
+.register-logo {
+    width: auto;
+    height: auto;
+}
+
+.register-heading, .register-description {
+    color: white !important;
+    font-family: inherit;
+}
+
+.register-description {
+    font-size: 14px;
+    text-align: center;
+}
+
+.register-btn-section {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.register-btn {
+    border: none;
+    border-radius: 30px;
+    width: 160px;
+    height: 35px;
+    cursor: pointer;
+    background: white;
+    color: rgba(85, 85, 85, 1);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.login-form {
+    margin-top: 10px;
+}
+
+.login-register-tab {
+    padding: 3rem 14rem;
+}
+
+.social-media-login {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.google-login{
+    height: 37px;
+    overflow: hidden;
+}
+.mr-40px {
+    /* margin-right: 40px; */
+}
+
+.btn-register, .register-btn, .btn-outline-primary:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .login-register-tab {
+        padding: 3rem 1rem;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .signup-checkbox {
+        width: 206.86px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .signup-checkbox {
+        width: 252.33px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .login-signup {
+        margin-top: 70px;
+    }
+    .login-form-outline {
+        padding: 3rem 3rem;
+    }
+    .login-register-tab {
+        padding: 1rem 4rem;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .login-signup {
+        margin-top: 70px;
+    }
+    .login-form-outline {
+        padding: 3rem 2rem;
+    }
+    .login-register-tab {
+        padding: 1rem 14rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .forgot-password {
+        line-height: 18px;
+    }
+    .login-signup-page {
+        margin: 20px;
+    }
+    .login-register-tab {
+        padding: 2rem 1rem;
+    }
+    .register-btn-section {
+        margin: unset;
+    }
+    .register-btn {
+        margin: 10% auto;
+    }
+    .register-description {
+        padding: unset;
+        width: 100%;
+    }
+    .login-form-outline {
+        padding: 3rem 4rem;
+    }
+    .reg-buttons {
+        display: block;
+    }
+    .reg-parent, .reg-teacher {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* .page-heading {
+        padding-left: 50px;
+    }
+    .page-title{
+        padding: 0px 50px 0px 50px;
+    } */
+    .login-form-outline {
+        padding: 3rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    /* .page-heading {
+        padding-left: 50px;
+    }
+    .page-title{
+        padding: 0px 50px 0px 50px;
+    } */
+    .login-form-outline {
+        padding: 3rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .login-form-outline {
+        padding: 3rem 1rem;
+    }
+    .mr-40px {
+        margin-right: 20px;
+    }
+}

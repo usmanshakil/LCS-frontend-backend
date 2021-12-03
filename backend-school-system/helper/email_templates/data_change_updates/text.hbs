@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <title>Data updates</title>
+</head>
+<style>
+  .username {
+    text-transform: capitalize;
+  }
+  .buttonContent{
+    display: flex;
+    width: 100%;
+  }
+  .loginBtn{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    background: green;
+    padding: 12px;
+    font-weight: 600;
+    border: 5px solid #dcdcdc;
+  }
+</style>
+
+<body>
+  <span class="username">
+    <h4>Dear {{adminName}},</h4>
+  </span>
+  <p>
+   {{loginUserName}} has made some changes in {{tableName}}. Please verify
+  </p>
+  <div>
+        <h4>Before</h4>
+        {{#each updatedInfo}}
+            <div class="row">
+                <div class="col-md-12">
+                    {{#each before}}
+                        <div class="col-md-3">{{@key}} : {{this}}</div>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+         <h4>After</h4>
+        {{#each updatedInfo}}
+            <div class="row">
+                <div class="col-md-12">
+                    {{#each after}}
+                       <div class="col-md-3">{{@key}} : {{this}}</div>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+        
+    </div>
+
+</body>
+
+</html>

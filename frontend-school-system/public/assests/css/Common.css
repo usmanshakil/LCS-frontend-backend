@@ -1,0 +1,444 @@
+/* Fonts import */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i,900,900i&display=swap");
+.main-layout-height {
+  /* height: calc(100vh + 180px); */
+  min-height: calc(100vh - 38vh);
+}
+.flex-content{
+  display:flex;
+}
+.w-100 {
+  width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.flex {
+  display: flex;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.d-v {
+  display: inline-block;
+}
+
+.m-v {
+  display: none !important;
+}
+
+.btn-center,
+.text-center {
+  text-align: center;
+}
+
+.page-title {
+  color: rgba(85, 85, 85, 1);
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: justify;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.login-signup-page,
+.forgot-password-section,
+.reset-password-section {
+  margin-top: 25vh;
+  overflow: hidden;
+}
+
+.forgot-password-form-outline,
+.login-form-outline,
+.reset-password-form-outline {
+  height: auto;
+  width: 100%;
+  background-color: rgba(248, 249, 250, 1);
+}
+
+.btn-login,
+.btn-forgot-password,
+.btn-reset-password {
+  background-image: linear-gradient(
+    to right,
+    rgba(51, 179, 205, 1),
+    rgba(30, 134, 155, 1)
+  );
+  border: none;
+  border-radius: 30px;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.page-heading,
+.forgot-password-heading,
+.reset-password-heading {
+  color: rgba(85, 85, 85, 1);
+  font-family: "Roboto Medium";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.btn-login,
+.btn-forgot-password,
+.btn-reset-password :hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(30, 134, 155, 1),
+    rgba(51, 179, 205, 1)
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn-login,
+.btn-forgot-password,
+.btn-reset-password,
+.clear-signature:focus {
+  outline: none;
+}
+
+.login-signup-heading {
+  margin-top: 50px;
+}
+
+.login-page,
+.forgot-password-page,
+.reset-password-page {
+  overflow: hidden;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgba(51, 179, 205, 1),
+    rgba(30, 134, 155, 1)
+  );
+}
+
+.signup-login-section {
+  padding: 1rem 6rem;
+}
+
+/* theme-1 represent super admin theme  */
+
+.theme-1 {
+  background-color: #33b3cd !important;
+}
+
+/* theme-2 represent admin theme  */
+
+.theme-2 {
+  background-color: #33b3cd !important;
+}
+
+/* theme-3 represent teacher theme  */
+
+.theme-3 {
+  background-color: #2fd9b9 !important;
+}
+
+/* theme-4 represent parent theme  */
+
+.theme-4 {
+  background-color: #f4e908 !important;
+}
+
+/* theme-1 border represent super admin theme border  */
+
+.theme-1-border {
+  border: 1px solid #33b3cd;
+}
+
+/* theme-2 border represent admin theme border  */
+
+.theme-2-border {
+  border: 1px solid #33b3cd;
+}
+
+/* theme-3 border represent teacher theme border  */
+
+.theme-3-border {
+  border: 1px solid #2fd9b9;
+}
+.align-right {
+  text-align: right;
+}
+/* theme-4 border represent parent theme border  */
+
+.theme-4-border {
+  border: 1px solid #f4e908;
+}
+
+/* table-theme-1 border represent super admin table border  */
+
+.table-theme-1 {
+  border-top: 0.2em solid #33b3cd !important;
+}
+
+/* table-theme-2 border represent admin table border  */
+
+.table-theme-2 {
+  border-top: 0.2em solid #33b3cd !important;
+}
+
+/* table-theme-3 border represent parent table border  */
+
+.table-theme-3 {
+  border-top: 0.2em solid #2fd9b9 !important;
+}
+
+/* table-theme-4 border represent parent teacher border  */
+
+.table-theme-4 {
+  border-top: 0.2em solid #f4e908 !important;
+}
+
+.container-view {
+  /* background: #eeeeee; */
+  overflow: hidden;
+}
+
+.heading-alignment {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.no-arrow input {
+  -moz-appearance: textfield;
+}
+
+.no-arrow input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.no-arrow input::-webkit-outer-spin-button,
+.no-arrow input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.header-username {
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+.center-table-text {
+  text-align: center !important;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+i.small.icon.view-icon {
+  font-size: 1.3em;
+  color: #585858;
+}
+
+.ml-1 {
+  margin-left: 0.25rem !important;
+}
+
+.ml-3 {
+  margin-left: 1.3rem !important;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-5rem {
+  margin-top: 5rem !important;
+}
+
+.mt-2rem {
+  margin-top: 2rem;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mx-auto {
+  margin: 0 auto !important;
+}
+
+.user-details-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.srv-validation-message {
+  color: Red;
+}
+
+.same-address-field {
+  margin-top: 23px !important;
+}
+
+.same-address-toggle {
+  padding: 6px 20px !important;
+  line-height: 12px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+body ::-webkit-scrollbar {
+  height: 2px !important;
+}
+
+.support-page-border,
+.admin-class-edit,
+.admin-teacher-edit,
+.view-student-page-border {
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.table-icons-spacing {
+  margin-left: 10px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.edit-form-layout {
+  /* background: #ccd1d1; */
+}
+
+.tab-color-1,
+.tab-color-2,
+.tab-color-3 {
+  color: rgba(255, 253, 253, 0.95) !important;
+}
+.tab-color-4 {
+  color: black !important;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.view-child {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@media only screen and (max-width: 1600px) {
+}
+
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1366px) {
+  .signup-login-section {
+    padding: 1rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1024px) {
+  .signup-form-outline {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 765px) {
+  .d-v {
+    /* display: none !important; */
+  }
+  .login-signup {
+    margin: 6vh;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .view-child {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .ui.fixed.table {
+    table-layout: auto !important;
+  }
+}
+
+/* } */
+@media only screen and (max-width: 767px) {
+  .ui.fixed.table {
+    table-layout: auto !important;
+  }
+  .align-right {
+    text-align: unset;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .view-child {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .forgot-password-form-outline,
+  .reset-password-form-outline {
+    padding: 3rem 2rem;
+  }
+  .d-v {
+    display: none !important;
+  }
+  .m-v {
+    display: block !important;
+  }
+  .container-view {
+    overflow: hidden;
+  }
+  .table-icons-spacing {
+    width: 100%;
+    text-align: center;
+    margin-left: unset;
+  }
+  /* .ui.fixed.table {
+        table-layout: auto !important;
+    } */
+  .admin-mobile-page-heading {
+    padding: 1rem 1rem;
+  }
+}

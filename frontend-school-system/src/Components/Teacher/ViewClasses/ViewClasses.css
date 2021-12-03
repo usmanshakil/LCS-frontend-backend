@@ -1,0 +1,21 @@
+.allclasses-empty-msg {
+    text-align: center !important;
+    padding: 40px !important;
+}
+
+.view-current-class {
+    padding: 10px;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width:414px) {
+    .add-class-btn{
+        margin-top:1rem !important;
+    }
+}
+
+
+
+
+

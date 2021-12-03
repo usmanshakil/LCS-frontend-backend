@@ -1,0 +1,12 @@
+.add-child-forms {
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: -webkit-fill-available;
+    display: flex !important;
+}
+
+.add-child-forms-options {
+    height: 33px;
+    white-space: nowrap;
+    padding: 4px 14px;
+}

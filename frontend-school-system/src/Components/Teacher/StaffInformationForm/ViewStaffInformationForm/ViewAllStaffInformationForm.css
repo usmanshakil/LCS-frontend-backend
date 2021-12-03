@@ -1,0 +1,5 @@
+@media only screen and (max-width:414px){
+    .print-btn-mobile{
+        margin: 10px 10px !important;
+    }
+}

@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>New User Signup</title>
+</head>
+<style>
+  .GFG {
+    font-family: 'Helvetica Neue',Arial,sans-serif;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 2;
+    display: inline-block;
+    border-radius: 3px;
+    background-image: linear-gradient(to top,#0084ff,#25b7ff);
+    background-color: #0084ff;
+    padding: 3px 20px;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+  }
+</style>
+<body>
+  <h4>Hello {{name}},</h4>
+  <p>
+    Congratulation - Your account has been created successfully.
+  </p>
+  <p>
+    Your username is - {{email}}
+  </p>
+  <p>
+    Please click on the Generate Password button to complete the process within 2 hours of receiving it.
+  </p>
+  <p>
+     <a class="GFG" href = '{{newPasswordAddress}}'>
+      Generate Password
+    </a>
+  </p>
+
+</body>
+
+</html>

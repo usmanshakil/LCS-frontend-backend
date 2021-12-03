@@ -1,0 +1,332 @@
+.login-signup {
+    margin: 10rem;
+    overflow: hidden;
+}
+
+.signup-form-outline {
+    height: auto;
+    width: 100%;
+    border-radius: 87.5px 0 0 87.5px;
+    background-color: rgba(248, 249, 250, 1);
+    padding: 3rem 10rem;
+}
+
+.signup-page-heading {
+    color: rgba(85, 85, 85, 1);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+}
+
+.step-registration-box {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.signup-label {
+    width: 100px;
+}
+
+.scanvas {
+    border: 1px solid #dededf;
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    /* overflow: hidden; */
+}
+
+.sigCanvas {
+    height: 112px;
+    width: inherit;
+
+}
+
+.blue-text {
+    color: #0070c0;
+}
+
+.signup-checkbox {
+    height: 39px;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 22px !important;
+    width: 257px;
+    text-align: left;
+    margin-left: 6px !important;
+    padding: 8px !important;
+    box-shadow: none !important;
+}
+
+.signup-fields {
+    text-align: left;
+}
+
+clear-signature :hover {
+    background: black;
+    color: white;
+}
+
+.hide-form {
+    display: none;
+}
+
+.show-form {
+    display: block;
+    margin-top: 20px;
+}
+
+.signup-page-title {
+    color: rgba(85, 85, 85, 1);
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.btn-register {
+    border-radius: 30px;
+    float: right;
+    width: 50%;
+    height: auto;
+    color: rgba(30, 134, 155, 1);
+    background: white;
+    border: 1px solid rgba(30, 134, 155, 1);
+    cursor: pointer;
+}
+
+.signature-label {
+    float: left;
+    color: rgba(153, 153, 153, 1);
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.register-page-top {
+    margin-bottom: 2rem;
+}
+
+.step-registration-box {
+    text-align: end;
+}
+
+.display-middle {
+    padding-top: 8rem;
+}
+
+.color-red {
+    color: red;
+}
+
+.signup-welcome-text {
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+}
+
+.captcha-code-section {
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.captcha-section {
+    width: 20%;
+    height: 38px;
+    background-color: #68b9c9;
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+.captcha-number, .equal-to-symbol {
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.captcha-result input {
+    width: 80px !important;
+}
+
+.captcha-number {
+    color: white;
+}
+
+.equal-to-symbol {
+    color: black;
+}
+
+.show-btn-section, .captcha-result {
+    /* width: 30%; */
+}
+
+.btn-authorise {
+    border-radius: 30px;
+    width: 100%;
+    color: rgba(30, 134, 155, 1);
+    background: white;
+    border: 1px solid rgba(30, 134, 155, 1);
+    cursor: pointer;
+    height: 35px;
+}
+
+@media only screen and (max-width:1600px) {}
+
+@media only screen and (max-width:1440px) {}
+
+@media only screen and (max-width:1366px) {
+    .display-middle {
+        padding-top: 6rem;
+    }
+    .signup-form-outline {
+        padding: 3rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .register-page-title {
+        padding: 0rem 6rem;
+    }
+    .signup-steps {
+        padding: 1rem 6rem;
+    }
+    .signup-form-outline {
+        padding: 3rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .signup-form-outline {
+        padding: 3rem 2rem;
+    }
+    .ui.form .fields {
+        margin: 10px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .login-signup {
+        margin: 8rem;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .register-page-title {
+        padding: 0rem 6rem;
+    }
+    .signup-steps {
+        padding: 1rem 6rem;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .scanvas, .signup-form-text-area {
+        margin: 10px;
+    }
+    .signup-form-btn {
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .signup-checkbox {
+        width: 206.86px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .signup-checkbox {
+        width: 252.33px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    .signup-form-outline {
+        padding: 3rem 6rem;
+    }
+    .register-page-top {
+        padding: 3rem 0rem;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .signup-form-outline {
+        padding: 3rem 6rem;
+    }
+    .register-page-title {
+        padding: 0rem 10rem;
+    }
+    .signup-steps {
+        padding: 1rem 10rem;
+    }
+    .register-page-top {
+        padding: 3rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .signup-form-outline {
+        height: auto;
+        min-height: 100vh;
+        padding: 3rem 2rem;
+    }
+    .register-page-top {
+        padding: 1rem 5rem;
+    }
+    .register-page-title {
+        padding: 0rem 2rem;
+    }
+    .signup-steps {
+        padding: 1rem 1rem;
+    }
+    .btn-register {
+        width: 100%;
+        height: auto;
+    }
+    .scanvas {
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 130px;
+    }
+    .signup-fields {
+        padding: 10px;
+    }
+    .sigCanvas {
+        width: inherit;
+        height: inherit;
+    }
+    .signup-form-btn {
+        margin: 10px;
+    }
+    .step-registration-box {
+        display: none;
+    }
+    .login-signup {
+        margin: 2vh;
+    }
+    .captcha-section {
+        width: 40%;
+    }
+    .reload-captcha {
+        margin: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 360px) {}
+
+@media only screen and (max-width: 320px) {
+    .signup-checkbox {
+        width: 96%;
+    }
+}

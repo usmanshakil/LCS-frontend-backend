@@ -1,0 +1,31 @@
+.modal-descripion{
+    margin: calc(2rem - .14285714em) 0 1rem;
+    padding: 0 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    line-height: 1.28571429em;
+    text-transform: none;
+    color: rgba(0,0,0,.87);
+    font-size: 1.55em;
+    justify-content: center;
+}
+
+i.huge.icon, i.huge.icons{
+    font-size: 3em !important;
+
+}
+.ui.modal>.actions {
+    background: #ffffff;
+}
+.modal{
+    height: auto !important;
+    left: 40% !important;
+    top: 40% !important;
+}
+@media only screen and (max-width: 600px) {
+    .modal{
+        height: auto !important;
+        left: 0% !important;
+        top: 30% !important;
+    }
+  }

@@ -1,0 +1,183 @@
+.back {
+  background-color: gray;
+}
+
+.back-ground {
+  background-color: gray;
+}
+
+.c-ui.container {
+  display: block;
+  max-width: 100% !important;
+}
+.ui.checkbox label.text-bold {
+    font-weight: 600;
+    opacity: 1 !important;
+}
+.mt-2{
+  margin-top:.5rem !important;
+}
+.c-ui.button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #e0e1e2 none;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin: 0 0.25em 0 0;
+  padding: 0.78571429em 1.5em 0.78571429em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease,
+    box-shadow 0.1s ease, background 0.1s ease;
+  will-change: "";
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c-ui.button {
+  font-size: 1rem;
+}
+.mt-1rem {
+  margin-top: 1rem;
+}
+.c-ui.grid {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.c-ui.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 0;
+}
+
+.c-ui.grid > .c-row {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: inherit;
+  align-items: stretch;
+  width: 100% !important;
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c-ui.grid > .c-row > [class*="five wide computer"].c-column,
+.c-ui.grid > [class*="five wide computer"].c-column {
+  width: 31.25% !important;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.address-box {
+  width: inherit;
+  justify-content: center;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* @page {
+    size: 5.5in 8.5in;
+} */
+
+@media print {
+  #printbtn {
+    display: none;
+  }
+}
+
+.view-student-page-print {
+  margin: 0.95rem 0.95rem;
+  padding: 0.9rem 0.9rem;
+  border-radius: 5px;
+}
+
+h1 {
+  page-break-before: always;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  page-break-after: avoid;
+}
+
+@media only screen and (min-width: 1200px) {
+  .c-ui.container {
+    width: 1127px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.p-r {
+  position: relative;
+}
+
+.print-button {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .view-child-page {
+    /* overflow: auto; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button-group {
+    margin-top: 1rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+}
+/* @media all {
+  .page-break {
+    display: none;
+  }
+} */
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+@media print {
+  .page-break {
+    margin-top: 1rem;
+    display: block;
+    page-break-before: auto;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 5mm;
+}

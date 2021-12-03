@@ -1,0 +1,46 @@
+.clear-signature {
+    border-radius: 30px;
+    height: auto;
+    color: rgba(30, 134, 155, 1);
+    background: white;
+    border: 1px solid rgba(30, 134, 155, 1);
+    cursor: pointer;
+}
+
+.clear-signature:hover {
+    color: white;
+    background: rgba(30, 134, 155, 1);
+    border: 1px solid rgba(30, 134, 155, 1);
+}
+
+.scanvas-parent {
+    border: 1px solid #dededf;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.no-signature-image-outline {
+    border: 1px solid #1e869b;
+    border-radius: 4px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.clear-signature-div {
+    padding: 10px 10px;
+}
+
+.no-signature-image {
+    width: 200px;
+}
+
+.checkbox-mt-35 {
+    margin-top: 35px;
+}
+
+@media only screen and (max-width: 414px) {
+    .checkbox-mt-35 {
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,29 @@
+.start-date,
+.end-date {
+  padding-right: 5px;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.date-search {
+  padding: 10px !important;
+  padding-right: 0 !important;
+}
+.date-search-btn {
+  padding: 13px 20px !important;
+}
+.right-menu-content {
+  align-items: center !important;
+}
+.DateInput_input {
+  height: 40px !important;
+}
+.CalendarMonth_caption {
+  padding-top: 28px !important;
+}

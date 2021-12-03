@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf3de3ef-bce1-47c5-915e-0370a2e10967" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archive.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/web_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/web_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/admin/annoucements.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/annoucements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/admin/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/admin/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/admin/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/admin/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/admin/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/parent/child.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/parent/child.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/parent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/parent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/parent/myaccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/parent/myaccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/renewal.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/renewal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/super_admin/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/super_admin/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/super_admin/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/super_admin/teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/teacher/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/teacher/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/teacher/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/teacher/teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/account_approval/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/account_approval/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/account_approval/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/account_approval/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/account_approval/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/account_approval/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/data_change_updates/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/data_change_updates/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/data_change_updates/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/data_change_updates/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/data_change_updates/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/data_change_updates/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/forgot_password/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/forgot_password/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/forgot_password/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/forgot_password/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/forgot_password/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/forgot_password/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/renewal/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/renewal/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/renewal/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/renewal/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/renewal/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/renewal/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/renewal_admission/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/renewal_admission/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/renewal_admission/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/renewal_admission/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/renewal_admission/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/renewal_admission/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/signup/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/signup/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/signup/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/signup/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/signup/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/signup/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/support/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/support/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/support/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/support/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/support/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/support/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/support_reply/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/support_reply/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/support_reply/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/support_reply/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/support_reply/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/support_reply/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/teacher_signup/html.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/teacher_signup/html.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/teacher_signup/subject.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/teacher_signup/subject.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/email_templates/teacher_signup/text.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/helper/email_templates/teacher_signup/text.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/joiValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/joiValidation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/routeHelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/routeHelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/s3DocUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/s3DocUpload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/s3upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/s3upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20191125082544-create-users.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20191125082544-create-users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20191223071547-create-childs.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20191223071547-create-childs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20191223082751-create-child-parent-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20191223082751-create-child-parent-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20191223110432-create-child-emergency-contact-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20191223110432-create-child-emergency-contact-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20191223113428-create-child-medical-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20191223113428-create-child-medical-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200102123251-create-child-development-report.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200102123251-create-child-development-report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200102135858-create-child-health-report.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200102135858-create-child-health-report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200102142104-create-child-eating-habit.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200102142104-create-child-eating-habit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200102142656-create-child-toilet-habit.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200102142656-create-child-toilet-habit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200103050216-create-child-sleeping-habit.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200103050216-create-child-sleeping-habit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200103050909-create-child-social-relationship.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200103050909-create-child-social-relationship.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200103055332-create-child-daily-schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200103055332-create-child-daily-schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200106120425-create-child-sunscreen-permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200106120425-create-child-sunscreen-permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200106132602-create-child-authorization-and-consent.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200106132602-create-child-authorization-and-consent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200106134011-create-child-toothbrushing-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200106134011-create-child-toothbrushing-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200106135331-create-child-transport-authority.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200106135331-create-child-transport-authority.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200106135959-create-child-school-directory-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200106135959-create-child-school-directory-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200110074524-create-teacher-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200110074524-create-teacher-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200123095646-create-classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200123095646-create-classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200210115237-create-announcements.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200210115237-create-announcements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200306064753-create-child-parent-agreement.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200306064753-create-child-parent-agreement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200306065031-create-child-local-trip-permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200306065031-create-child-local-trip-permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200306070438-create-child-photo-release.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200306070438-create-child-photo-release.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325082311-create-staff-hiring-form-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325082311-create-staff-hiring-form-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325101235-create-staff-education-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325101235-create-staff-education-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325101720-create-staff-personal-reference-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325101720-create-staff-personal-reference-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325102327-create-staff-professional-reference-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325102327-create-staff-professional-reference-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325102844-create-staff-references-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325102844-create-staff-references-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325104941-create-staff-emergency-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325104941-create-staff-emergency-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325105732-create-staff-statement-of-compliance-with-cori-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325105732-create-staff-statement-of-compliance-with-cori-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325110502-create-staff-handbook-waiver-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325110502-create-staff-handbook-waiver-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200325113326-create-staff-administrative-teaching-staff-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200325113326-create-staff-administrative-teaching-staff-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20200327121851-create-teacher-training-detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20200327121851-create-teacher-training-detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/announcements.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/announcements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_authorization_and_consent.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_authorization_and_consent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_daily_schedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_daily_schedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_development_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_development_report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_eating_habit.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_eating_habit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_emergency_contact_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_emergency_contact_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_health_report.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_health_report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_local_trip_permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_local_trip_permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_medical_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_medical_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_parent_agreement.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_parent_agreement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_parent_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_parent_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_photo_release.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_photo_release.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_school_directory_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_school_directory_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_sleeping_habit.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_sleeping_habit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_social_relationship.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_social_relationship.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_sunscreen_permissions.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_sunscreen_permissions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_toilet_habit.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_toilet_habit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_toothbrushing_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_toothbrushing_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/child_transport_authority.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/child_transport_authority.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/childs.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/childs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/class_teachers.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/class_teachers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/role.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_education_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_education_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_emergency_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_emergency_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_handbook_waiver_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_handbook_waiver_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_hiring_form_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_hiring_form_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_personal_reference_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_personal_reference_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_professional_reference_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_professional_reference_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_references_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_references_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/staff_statement_of_compliance_with_cori_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/staff_statement_of_compliance_with_cori_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/teacher_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/teacher_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/teacher_training_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/teacher_training_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users_role.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users_role.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mylch-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/mylch-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/annoucements.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/annoucements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/class.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/parent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/renewal.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/renewal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/super_admin/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/super_admin/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/super_admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/super_admin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/super_admin/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/super_admin/teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/teacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/teacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20191127074358-role.js" beforeDir="false" afterPath="$PROJECT_DIR$/seeders/20191127074358-role.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="563766365">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="1" />
+          <entry key="js" value="27" />
+          <entry key="json" value="4" />
+          <entry key="text" value="2" />
+          <entry key="ts" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="27" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="TypeScript" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/admin/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>process.env.</find>
+      <find>ER_BAD_DB_ERROR</find>
+      <find>'users'</find>
+      <find>BOOLEAN</find>
+      <find>Welcome to Express app</find>
+      <find>download</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\wamp\www\School-house-backend</dir>
+      <dir>C:\wamp\www\School-house-backend\routes</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/passport.js" />
+        <option value="$PROJECT_DIR$/models/users.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="School-house-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School-house-backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="School-house-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School-house-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="School-house-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School-house-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="School-house-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="School-house-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../designerdram" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf3de3ef-bce1-47c5-915e-0370a2e10967" name="Default Changelist" comment="" />
+      <created>1606158592222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606158592222</updated>
+      <workItem from="1606158593455" duration="4364000" />
+      <workItem from="1606242625700" duration="644000" />
+      <workItem from="1606327748485" duration="2901000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7909000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32947367" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/models/childs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/passport/lib/authenticator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/globals.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="165" column="12" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql2/lib/packet_parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/parent.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/teacher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/super_admin/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/super_admin/teacher.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="138" column="56" lean-forward="true" selection-start-line="138" selection-start-column="56" selection-end-line="138" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/medical_reports.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

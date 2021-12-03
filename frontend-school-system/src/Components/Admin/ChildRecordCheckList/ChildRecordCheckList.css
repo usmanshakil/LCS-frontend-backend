@@ -1,0 +1,62 @@
+.dt-button{
+    background-color: #21ba45 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    background-image: none !important;
+    border-radius: 4px !important;
+    padding: 5px  19px !important;
+    border: unset !important;
+}
+.csv-btn{
+    background-color: #21ba45 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    background-image: none !important;
+    border-radius: 4px !important;
+    padding: 5px 24px !important;
+    border: unset !important;
+    margin-bottom: 7px;
+}
+
+.dataTables_filter > label > input{
+    border-radius: unset !important;
+    border: unset !important;
+    border-bottom: 2px solid !important;
+    margin-left: 20px !important;
+    margin-bottom: 12px !important;
+    transition: .2s ease-in-out;
+}
+.dataTables_filter > label > input:focus{
+      border-bottom: 2px solid blue !important;  
+    outline: none !important;  
+ 
+}
+
+.view-child::-webkit-scrollbar {
+    width: 20px!important;
+    height: 13px !important; 
+  }
+  /* .headcol {
+    position: absolute;
+    width: 5em;
+    left: 0;
+    top: auto;
+    border-top-width: 1px; 
+    margin-top: -1px;
+    
+  } */
+  /* .headcol:before {
+    content: 'Row ';
+  } */
+
+  
+
+
+
+
+
+
+
+
+
+ 
